@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nike.com/Kid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/kid.css">
+    <link rel="icon" type="image/x-icon" href="https://www.nike.com/favicon.ico?v=1">
+    <link rel="stylesheet" href="../src/header.css">
+    <link rel="stylesheet" href="../src/navbar.css">
+    <link rel="stylesheet" href="../src/footer.css">
+    <script defer src="../component/script/header.js"></script>
+    <script defer src="../component/script/navbar.js"></script>
+    <script defer src="../component/script/footer.js"></script>
+    <script defer src="../component/script/feature.js"></script>
+    <script defer src="../component/script/backgroundImage.js"></script>
+    <script defer src="../component/script/shoesScroll.js"></script>
+    <script defer src="../script/footerAccordion.js"></script>
+</head>
+<body>
+<!-- header  -->
+<header-nike></header-nike>
+
+<!-- navbar  -->
+<navbar-nike newFeature="./new&featured.html" men="./men.html" women="./women.html" kid="./kid.html" homePage="../index.html"></navbar-nike>
+
+<!-- discount -->
+<div class="discount">
+  <p>Earn $100 with a New Apple Card. Terms apply.</p>
+</div>
+
+<!-- kid-navbar  -->
+<section class="kid-header">
+  <div class="container">
+      <div class="kid-navbar">
+          <div class="kid">
+              <h3>Kids</h3>
+          </div>
+          <div class="list-kid">
+              <ul class="kid-list">
+                  <a href=""><li>Shoes</li></a>                    
+                  <a href=""><li>Clothing</li></a>                
+                  <a href=""><li>New Arrivals</li></a>
+                  <a href=""><li>Gear & Accessories</li></a>
+                  <a href=""><li>Mini Me</li></a>
+                  <a href=""><li>Sale</li></a>                                     
+              </ul>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <!-- pic-under-navbar -->
+<section class="third-line container">
+    <a href="">
+      <div class="image-third-line">
+        <img alt="Nike. Just Do It" class="image-desktop" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1674,c_limit/1d4fbba3-03b5-45d1-a805-b9f4192b3e83/nike-kids-shoes-clothing-and-accessories-nike-com.jpg">
+        <img class="image-mobile" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_596,c_limit/54887006-0a6c-4cd8-bf60-631026a7a0e5/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="Nike. Just Do It">
+      </div>
+    </a>
+  <!-- paragraph-under-pic -->
+    <div class="background-third-photo">
+      <h3 class="nike-sb">NIKE SB DAY ONE</h3>
+      <p class="made-to-skate">Made to Skate. Designed to support you from the start</p>
+      <div class="button-shop">
+        <button class="Shop">Shop</button>
+      </div>
+    </div>
+</section>
+
+  <!-- fourth-pic -->
+<section class="line-four container">
+    <div  class="background-image1 background-image-four">
+      <div class="parent-item">
+          <h3 class="items">Big Kids</h3>
+          <p class="items" >Explore apparel (XS-XL) <br>and shoes (3.5-7Y).</p>
+        <button class="item-shop-button">shop</button>
+      </div>
+    </div>
+    <div class="background-image2 background-image-four">
+      <div class="parent-item">
+          <h3 class="items">Babies and Toddlers</h3>
+          <p class="items">Explore apparel (0M-4T) and shoes (0C-10C).</p>
+        <button class="item-shop-button">shop</button>
+      </div>
+    </div>
+    <div class="background-image3 background-image-four">
+      <div class="parent-item">
+          <h3 class="items">Little Kids</h3>
+          <p class="items">Explore apparel (4-7) and shoes (10.5C-3Y).</p>
+        <button class="item-shop-button">shop</button>
+      </div>
+    </div>
+    <div class="background-image4 background-image-four">
+      <div class="parent-item">
+          <h3 class="items">Teen Essentials</h3>
+          <p class="items">Explore apparel (XS-XL) and shoes (3.5-7Y).</p>
+          <button class="item-shop-button">shop</button>
+      </div>
+    </div>
+</section>
+
+<!-- second-shoes-scroll  -->
+<section class="container grandparent-second-shoes-scroll">
+    <div class="popular-right-now">
+      <h4>Popular Right Now</h4>
+    </div>
+
+    <div class="second-shoes-scroll">
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/45f4f8ff-3e74-4c24-85f8-12a01f49b021/air-max-dn-big-kids-shoes-SjtGM9.png" 
+      shoes-name='Nike Air Max Dn' 
+      shoes-gender="Big Kid's Shoes" 
+      shoes-prize="130$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/911ceeb7-0ba0-4395-b1a8-74dce8c6e1c2/dunk-low-baby-toddler-shoes-JvlMBn.png" 
+      shoes-name='Nike Dunk Low' 
+      shoes-gender="Baby/Toddler Shoes" 
+      shoes-prize="55$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/e82a1901-e45f-46f7-b065-b019b0351837/air-jordan-4-retro-big-kids-shoes-VqdnWF.png" 
+      shoes-name='Air Jordan 4 Retro' 
+      shoes-gender="Big Kid's Shoes" 
+      shoes-prize="160$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/9e301670-6601-4f99-8deb-73c6956099cf/jordan-4-retro-little-kids-shoes-kDKnwq.png" 
+      shoes-name='Air Jordan 4 Retro' 
+      shoes-gender="Little Kid's Shoes" 
+      shoes-prize="100$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/11945f86-56c7-4c61-ae7e-7582cb27342c/jordan-4-retro-baby-toddler-shoes-8ndFBg.png" 
+      shoes-name='Jordan 4 Retro' 
+      shoes-gender="Baby/Toddler Shoes" 
+      shoes-prize="85$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/b1778add-1da0-4891-b830-f5105b15ea56/air-jordan-1-high-og-big-kids-shoes-kwqPnW.png" 
+      shoes-name='Air Jordan 1 High OG' 
+      shoes-gender="Big Kid's Shoes" 
+      shoes-prize="140$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/fecba264-b8d4-41b3-bf91-c7235b673201/jordan-1-retro-high-og-little-kids-shoes-6P4b0q.png" 
+      shoes-name='Jordan 1 Retro High OG' 
+      shoes-gender="Little Kid's Shoes" 
+      shoes-prize="85$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_556,c_limit/1345218f-918d-4d8a-b6c8-7060184014d8/jordan-1-retro-high-og-baby-toddler-shoes-pFTNMT.png" 
+      shoes-name='Jordan 1 Retro High OG' 
+      shoes-gender="Baby/Toddler Shoes" 
+      shoes-prize="70$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_556,c_limit/de435682-1b71-4f84-b113-cd06e46018ab/ja-1-day-big-kids-basketball-shoes-QVNLQb.png" 
+      shoes-name='Ja 1 "Day"' 
+      shoes-gender="Big Kid's Basketball Shoes" 
+      shoes-prize="92$"
+      ></shoes-card>
+
+      <shoes-card shoes-image="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_552,c_limit/cfdf0baf-89db-46c7-bb3a-35e877a332ce/lebron-xxi-optimism-big-kids-basketball-shoes-4VW2k1.png" 
+      shoes-name='LeBron XXI "Optimism"' 
+      shoes-gender="Big Kid's Basketball Shoes" 
+      shoes-prize="160$"
+      ></shoes-card>
+    </div>
+  </section>
+
+  <!-- Trending -->
+<section class="image2">
+    <div class="trending container">
+      <h4>Trending</h4>
+    </div>
+    <div class="picture2 container">
+      <background-image image="background-picture1" title="What Limit?" detail="Serena Williams Design Crew Collection"></background-image>
+      <background-image image="background-picture2" title="Expression in Motion" detail="Refreshing Adventure Collection"></background-image>
+    </div>
+  </section>
+
+<!-- three-photo-with-shop-link  -->
+<section class="grandparent-more-to-explore">
+    <div class="parent-more-to-explore  container">
+      <div class="more-to-explore">
+        <h4>More to Explore</h4>
+      </div>
+      <div class="image-more-to-explore">
+        <div>
+          <img class="child-image-more-to-explore" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_599,c_limit/8dc9963f-b987-4cbe-9126-72b6dc71b45e/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+          <div class="paragraph-link-shop">
+            <h5 class="child-paragraph-link-shop">Shoes $70 & Under</h5>
+            <a class="shop-link" href="#">Shop</a>
+          </div>
+        </div>
+        <div>
+          <img class="child-image-more-to-explore" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_599,c_limit/d5d8604e-268c-4b3c-9830-27fa998dbed9/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+          <div class="paragraph-link-shop">
+            <h5 class="child-paragraph-link-shop">New from Nike Basketball</h5>
+            <a class="shop-link" href="#">Shop</a>
+          </div>
+        </div>
+        <div>
+          <img class="child-image-more-to-explore" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_599,c_limit/0a412e3a-4250-4393-acc1-ed671f373401/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+          <div class="paragraph-link-shop">
+            <h5 class="child-paragraph-link-shop">Easy On & Off Shoes</h5>
+            <a class="shop-link" href="#">Shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- classics-spotlight  -->
+  <section class="parent-shoes-scroll">
+    <div class="classic-spotlight container">
+      <h4>Classics Spotlight</h4>
+    </div>
+    <div class="shoes-scroll container">
+      <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1809,c_limit/28e6ddc8-999d-46ed-ac0f-c819ba02d6c5/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+      <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1809,c_limit/3fb41f89-1987-421f-86f6-4762fc69f8e6/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+      <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1809,c_limit/d72134dc-7abe-4bd9-98f4-8d7bc526ac41/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+      <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1809,c_limit/3bccc97f-2c78-4f8b-b103-b6e5cb716529/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+      <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1809,c_limit/02c15673-3ef4-4186-83c0-0f43b78c1fd6/nike-kids-shoes-clothing-and-accessories-nike-com.jpg" alt="">
+    </div>
+  </section>
+
+   <!-- Feature -->
+   <feature-nike></feature-nike>
+
+  <!-- footer  -->
+  <footer-nike></footer-nike>
+    
+</body>
+</html>

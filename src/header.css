@@ -1,0 +1,28 @@
+/* header  */
+.header-top {
+    background-color: #F5F5F5;
+}
+.header-child-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.list-header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.list-header > li > span {
+    margin: 5px;
+}
+.jordan-logo {
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+}

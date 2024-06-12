@@ -1,0 +1,486 @@
+@media (min-width: 1200px) {
+    .svg-icon > .icon3 {
+        display: none;
+    }
+    .svg-icon {
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width:1200px) {
+    .center {
+        display: none;
+    }
+    .search-button > .search {
+        display: none;
+    }
+    .search-button {
+        position: relative;left: -8%;
+    }
+    .svg-icon {
+        display: flex;
+        width: 100%;
+    }
+    .navbar2 > .navbar2-child > .search-button-2icon {
+        width: 50%;
+    }
+}
+@media(max-width: 720px) {
+    .header-top {
+        display: none;
+    }
+}
+@media(max-width: 993px) {
+    .list-kid {
+        display: none;
+    }
+}
+@media (max-width: 770px) {
+    .image2 > .picture2 {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media (max-width: 768px) {
+    .background-third-photo > .nike-sb {
+        transition: 0.3s;
+        font-size: 30px;
+    }
+}
+/* discount */
+.discount {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 58px;
+    width: 100%;
+
+}
+.discount > p {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* kid-navbar */
+.kid-header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+.kid-navbar {
+    display: flex;
+    align-items: center;
+}
+.list-kid {
+    width: 70%;
+}
+.kid-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    list-style: none;
+    margin-top: 10px;
+}
+.kid-list > a {
+    color: black;
+    text-decoration: none;
+}
+.kid-list > a :hover {
+    color: gray;
+}
+.kid {
+    font-size: 24px;
+    width: 25%;
+}
+/* paragraph-under-pic */
+.Shop {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+.button-shop :hover {
+    background-color: gray;
+}
+.nike-sb {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    font-weight: bolder;
+    color: rgb(17, 17, 17);;
+    margin-top: 2%;
+}
+.made-to-skate{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    color: rgb(17, 17, 17);;
+}
+.button-shop {
+    display: flex;
+    justify-content: center;
+}
+.image-desktop {
+    width: 100%;
+    height: 100%;
+}
+.image-mobile {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+@media (max-width: 970px) {
+    .image-mobile {
+        display: block;
+    }
+    .image-desktop {
+        display: none;
+    }
+}
+/* fouth-pic */
+.background-image1 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/dbe128f7-08de-4cd6-9a67-c5d6379f71f2/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 700px;
+}
+.background-image2 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/d7596a44-b299-4050-83af-b25707978070/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 500px;
+}
+.background-image3 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/8683d382-e97e-441b-a172-02e872d60cf3/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 500px;
+}
+.background-image4 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/b5ec764e-5a91-4879-90ee-ade08c70edae/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 700px;
+    position: relative;
+    bottom: 200px;
+}
+.background-image-four {
+    background-size: cover;
+    background-position: right;
+}
+.line-four {
+    transition: 0.3s;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+}
+@media (max-width: 900px) {
+    .line-four {
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .background-image4 {
+        position: relative;
+        top: 0px;
+    }
+}
+.parent-item {
+    position: relative;
+    top: 60%;
+    z-index: 4;
+    margin-left: 10%;
+    color: black;
+    cursor: pointer;
+}  
+
+.item-shop-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+.items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* second-shoes-scroll */
+.popular-right-now {
+    margin-bottom: 30px;
+}
+.second-shoes-scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+.grand-shoes-scroll {
+    widows: 385px;
+    height: 385px;
+}
+.grandparent-second-shoes-scroll {
+    position: relative;
+    top: -100px;
+}
+@media (max-width: 900px) {
+    .grandparent-second-shoes-scroll {
+        position: relative;
+        top: 50px;
+    }
+    
+}
+
+/* image2 */
+@media (max-width: 800px) {
+    .image2 {
+        position: relative;
+        top: 100px;
+    }
+}
+.trending {
+    margin-bottom: 30px;
+}
+.picture2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.background-picture1 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_702,c_limit/dd7ca0f3-ae67-4550-8e30-a17ea8d09d78/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+}
+.background-picture2 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_702,c_limit/faa1e000-5b27-4bc4-8619-75c4a9d09af8/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+}
+.background-image {
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+}
+@media (min-width: 1400px) {
+    .line-four > .background-image {
+        transition: 0.3s;
+        height: 800px;
+    }
+}
+.parent-item {
+    position: relative;
+    top: 60%;
+    margin-left: 10%;
+    color: white;
+    cursor: pointer;
+}
+.item-shop-button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    z-index: 6;
+}
+.item-shop-button :hover {
+    color: white;
+}
+
+/* image-more-to-explore */
+@media (max-width: 800px) {
+    .grandparent-more-to-explore {
+        position: relative;
+        top: 100px;
+    }
+}
+.more-to-explore {
+    margin-bottom: 30px;
+}
+.parent-more-to-explore {
+    position: relative;
+    top: 100px;
+}
+.image-more-to-explore {
+    transition: 0.3s;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.child-image-more-to-explore {
+    width: 100%;
+    height: 600px;
+}
+.paragraph-link-shop {
+    margin-top: 20px;
+}
+.child-paragraph-link-shop {
+    margin-bottom: 30px;
+}
+.shop-link {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* shoes-scroll */
+.classic-spotlight {
+    margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+    .parent-shoes-scroll {
+        margin-top: 100px;
+    }
+}
+.parent-shoes-scroll {
+    position: relative;
+    top: 150px;  
+}
+.shoes-scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+
+/* feature */
+.feature-main {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.feature {
+    list-style: none;
+}
+.feature :hover {
+    color: black;
+    cursor: pointer;
+}
+.feature-head {
+    margin-bottom: 20px;
+}
+.feature-body {
+    margin-bottom: 10px;
+}
+.feature-gray {
+    color: gray;
+}
+/* feature-display-when-small-screen  */
+.feature-small-screen {
+    height: 150px;
+    margin-top: 190px;
+}
+.child-feature-small-screen {
+    height: 100%;
+}
+.second-feature {
+    height: 100%;
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+@media (max-width: 600px) {
+    .feature-main {
+        transition: 0.3s;
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    .feature-small-screen {
+        transition: 0.3s;
+        display: none;
+    }
+}
+
+
+.container {
+    width: 100%;
+}
+@media(min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media(min-width: 760px) {
+    .container {
+        max-width: 760px;
+    }
+}
+@media(min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media(min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media(min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+@media(min-width: 2000px) {
+    .container {
+        max-width: 2000px;
+    }
+    .logo-list > .center {
+        position: relative;
+        transition: 0.3s;
+        left: -12%;
+    }
+    .kid-navbar > .list-kid {
+        position: relative;
+        left: 10%;
+    }
+    .line-four > .background-image1 {
+        height: 900px;
+    }
+    .line-four > .background-image2 {
+        height: 700px;
+    }
+    .line-four > .background-image3 {
+        height: 700px;
+    }
+    .line-four > .background-image4 {
+        height: 900px;
+    }
+    .child-second-shoes-scroll > div > .grand-shoes-scroll {
+        width:  500px;
+        height: 500px;
+    }
+    .picture2 > .picture {
+        height:  1100px;
+    }
+    .grandparent-more-to-explore {
+        margin-bottom: 50px;
+    }
+    .image-more-to-explore > div > .child-image-more-to-explore {
+        height: 600px;
+    }
+    .parent-shoes-scroll > div > img {
+        width: 500px;
+        height: 600px;
+    }
+}
+@media (max-width: 950px) {
+    .parent-more-to-explore > .image-more-to-explore {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media (min-width: 700px) and (max-width: 950px) {
+    .image-more-to-explore > div > .child-image-more-to-explore {
+        height: 800px;
+    }
+}
+
+
+

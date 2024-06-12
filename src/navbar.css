@@ -1,0 +1,68 @@
+.navbar2 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar2-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center > .list-navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 20px;
+}
+.list-navbar > a {
+    color: black;
+    text-decoration: none;
+}
+.search {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 190px;
+    height: 40px;
+    border:  1px gray;
+    background-color: #f5f5f5;;
+    padding-left: 40px;
+    outline: white;
+}
+.search-button {
+    display: flex;
+    align-items: center;
+}
+.search-button > svg {
+    position: relative;
+    left: 18%;
+}
+.nike-logo > .pre-logo-svg {
+    width: 80px;
+    height: 100%;
+}
+.logo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.logo-list > a {
+    color: black;
+}
+.search-button-2icon {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.svg-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

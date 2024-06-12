@@ -1,0 +1,42 @@
+
+{
+    "cardImage":[
+        {
+            "card-image": "background-button-shop1",
+            "card-title": "Member Interests",
+            "card-detail": "Shop Your Way",
+            "card-button": "Shop"
+        },
+        {
+            "card-image": "background-button-shop2",
+            "card-title": "Member Rewards",
+            "card-detail": "How We Say Thank You",
+            "card-button": "Celebrate"
+        },
+        {
+            "card-image": "background-button-shop3",
+            "card-title": "Sport & Wellness Apps",
+            "card-detail": "Movement Where You're Aty",
+            "card-button": "Move"
+        },
+        {
+            "card-image": "background-button-shop4",
+            "card-title": "Nike By You",
+            "card-detail": "Your Customization Service",
+            "card-button": "Customize"
+        },
+        {
+            "card-image": "background-button-shop5",
+            "card-title": "SNKRS",
+            "card-detail": "Your Ultimate Sneaker",
+            "card-button": "Explore"
+        },
+        {
+            "card-image": "background-button-shop6",
+            "card-title": "Member Interests",
+            "card-detail": "Shop Your Way",
+            "card-button": "Add"
+        }
+    ]
+    
+}
